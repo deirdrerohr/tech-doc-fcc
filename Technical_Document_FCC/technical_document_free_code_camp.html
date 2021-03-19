@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        ul.a {
+      list-style-type: none;
+  }
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top:0;
+        background-color:indianred;
+        padding: 20px;
+        font-size: 15px;
+        z-index: 1;
+    }
+    div.sticky h1{
+        font-family:cursive;
+    }
+    div.main {
+        background-color: lawngreen;
+        padding-left: 30px;
+      
+    }
+
+  
+    .w3-container h1 {
+    margin: 20px;
+    padding: 30px;
+    max-width: 900px;
+    background: yellow;
+    float: left;}
+
+    .sidenav {
+        height: 100%;
+        width: 10%;
+        position: fixed;
+        z-index: 1;
+        left: auto;
+        background-color: darkturquoise;  
+        overflow-x: hidden;
+        padding-top: 50px;  
+        }
+       .sidenav a {
+           padding: 6px 8px 6px 8px;
+           text-decoration: none;
+           font-size: 20px;
+           color:white;
+           display: block;
+           
+       } 
+       .sidenav a:hover {
+           color: black;
+       }
+       .top{
+           height: 3em;
+           position: relative
+           width 100%;
+           background-color:rgb(233, 105, 233);
+           
+           vertical-align: center;
+           padding: 0;
+           margin: 0;
+           position: fixed;
+       }
+       .top {
+        font-family: cursive;
+       }
+    
+       
+/*#navbar {
+   
+    overflow: scroll;
+    background-color: lightgray;
+    border-color: orange;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }*/
+ 
+      
+  
+.w3-container{
+    height: 10em;
+    position: relative 
+    }  
+
+
+  /*#navbar a {
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /*#navbar a:hover {
+    background-color: pink;
+    color: black;
+  }*/
+  .content {
+    padding: 40px;
+  }
+  /*.main-section {
+    margin-top: 10px;
+  }*/
+  code {
+      background-color:lightgray;
+      margin:10px;
+      padding:10px;
+
+  }
+ 
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: white;
+    }
+  }
+</style>
+</head>
+
+
+<main id="main-doc">
+    <div class="sidenav">
+  <!--<div style="width:35%">
+    
+    <nav id="navbar">-->
+   
+    <a class="nav-link" href="#Topic_One">Topic One</a>
+    <a class="nav-link" href="#Topic_Two">Topic Two</a>
+    <a class="nav-link" href="#Topic_Three">Topic Three</a>
+    <a class="nav-link" href="#Topic_Four">Topic Four</a>
+    <a class="nav-link" href="#Topic_Five">Topic Five</a>
+  </nav>
+</div>
+</div> 
+
+  <div style="margin-left:11%">
+    <div class="sticky"><header><img src="techni</header></div>
+    <body>
+        <div style="padding-bottom:2000px">
+  <div class="w3-container">
+  <!--<header id="topic_of_document"><h1 class="top">Document Topic</h1></header>-->
+   <div class="main">
+  <section class="main-section" id="Topic_One">
+    Technical Documention
+    <header>Topic One</header>
+    <p>first paragraph</p>
+    <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </code>
+    <p>second paragraph</p>
+  </section>
+  <section class="main-section" id="Topic_Two">
+    <header id="Topic_Two">Topic Two</header>
+    <p>first paragraph</p>
+    <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </code>
+    <p>second paragraph</p>
+  </section>
+  <section class="main-section" id="Topic_Three">
+    <header>Topic Three</header>
+    <p>first paragraph</p>
+    <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </code>
+    <p>second paragraph</p>
+  </section>
+  <section class="main-section" id="Topic_Four">
+    <header>Topic Four</header>
+    <p>first paragraph</p>
+    <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </code>
+    <p>second paragraph</p>
+  </section>
+  <section class="main-section" id="Topic_Five">
+    <header>Topic Five</header>
+    <p>first paragraph</p>
+    <code>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </code>
+    <p>second paragraph</p>
+    <ul class="a">This is why you should follow this technical documentation
+    <li>reason one</li>
+    <li>reason two</li>
+    <li>reason three</li>
+    <li>reason four</li>
+    <li>reason five</li>
+</ul>
+</div>
+</div></div>
+</div>
+  </section>
+</main>
+</body>
+</html>
